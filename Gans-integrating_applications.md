@@ -1,5 +1,3 @@
-# Ian Gans - Integrating Applications Research
-
 ## Prompt 1
 
 ### **Prompt:**
