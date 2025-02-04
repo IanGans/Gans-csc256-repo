@@ -161,15 +161,15 @@ The application should:
 
 ## Reflection
 
-### **Learning Outcomes**
+This project was a valuable learning experience in designing and implementing scalable applications with APIs, modular architecture, and robust testing strategies. Working collaboratively to integrate multiple internal APIs and one public API while maintaining principles of maintainability, scalability, testability, and robustness taught me the importance of systematic planning and adherence to software design principles.
 
-I learned how to design scalable applications with APIs, modular structure, and effective testing strategies. The project reinforced best practices in software development.
+The task of structuring a system with Flask microservices challenged me to think critically about modular design. Dividing the project into independent services allowed team members to focus on specific components, reducing version control conflicts and improving workflow efficiency. The integration of testing frameworks, including pytest, Selenium, Playwright, Postman, and Robot Framework, reinforced the significance of structured testing in software development.
 
-### **Challenges Faced**
+One of the biggest challenges was ensuring smooth integration across APIs while adhering to SOLID principles. Designing clear API contracts using OpenAPI was crucial for reducing ambiguity. Implementing effective testing strategies across tools required extra research and experimentation, particularly in configuring parallel testing with pytest-xdist and Pabot for Robot Framework. Learning to automate tests for UI interactions, API endpoints, and end-to-end workflows was especially rewarding.
 
-Ensuring smooth integration of testing tools was challenging. Understanding API dependencies and test automation strategies required extra research.
+The project also highlighted the importance of scalability and modularity. By employing Flask Blueprints, SQLAlchemy for ORM, and robust exception handling, we created an application that was easy to maintain and extend. Deploying the application to the cloud demonstrated the value of horizontal scaling in microservices architecture.
 
-### **Personal Growth**
+Overall, this experience enhanced my ability to plan and execute large-scale projects while ensuring quality through effective testing. It also deepened my understanding of software design principles and the collaborative process of building modular systems. Moving forward, I plan to further develop my skills in API integration, test automation, and efficient team collaboration to deliver even more impactful projects.
 
-This project enhanced my ability to plan, test, and collaborate on large-scale applications. I now appreciate structured testing and design principles even more.
+
 
